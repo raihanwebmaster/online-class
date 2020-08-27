@@ -1,0 +1,18 @@
+.course-container{
+    display: flex;
+}
+.right-container{
+    width: 80%;
+    margin-left: 20px;
+    margin-right: 15px;
+    border-right: 1px solid lightgray;
+}
+.left-container{
+    text-align: center;
+    padding-left: 5px;
+}
+.left-container h2{
+    color: tomato;
+    font-size: 25px;
+    padding-top: 20px;
+}

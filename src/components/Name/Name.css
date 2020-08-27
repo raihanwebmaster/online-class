@@ -1,0 +1,49 @@
+.photo-edit img{
+    width: 300px;
+    height: 165px;
+    margin: 10px;
+    
+}
+.name{
+    display: flex;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 10px;
+}
+.discount{
+    text-decoration: line-through;
+    
+}
+.fontwight{
+    font-weight: 600;
+
+}
+.edit-style{
+    padding-top: 7px;
+}
+.edit-style p{
+    margin: 0px;
+    padding: 2px;
+}
+.edit-style h4{
+    margin: 0px;
+    padding: 2px;
+}
+.main-button{
+    background-color: rgb(233, 87, 87);
+    width: 100px;
+    height: 25px;
+    border-radius: 7px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.main-button:focus{
+    outline: none;
+}
+.main-button:hover{
+    background-color:rgb(250, 31, 31) ;
+}
+.main-button:active{
+    background-color:white;
+
+}
