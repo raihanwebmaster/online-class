@@ -16,7 +16,7 @@ const Cart = (props) => {
             <Card  style={{ width: '17rem' }}>
             <Card.Body>
                 <Card.Title>Order Summary</Card.Title>
-                <Card.Text>Items Ordered : {cart.length}</Card.Text>
+                <Card.Text>Course Ordered : {cart.length}</Card.Text>
                 <Card.Text>Total : £{(total).toFixed(2)}</Card.Text>
                 <Button variant="primary">Payment</Button>
             </Card.Body>
